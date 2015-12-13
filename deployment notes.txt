@@ -1,0 +1,15 @@
+git init
+git remote add origin git@github.com:psibal/my-site.git
+git checkout master
+git add -A
+git commit -m "jekyll base sources"
+git push origin master
+
+cd _site
+touch .nojekyll
+git init
+git remote add origin git@github.com:psibal/my-site.git
+git checkout -b gh-pages
+git add -A
+git commit -m "jekyll first build"
+git push origin gh-pages

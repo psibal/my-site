@@ -1,0 +1,17 @@
+---
+layout: default
+---
+<section class="bg-dark">	
+  <div class="text-center">
+    <h1><img src="{{ page.image_path | prepend: site.baseurl }}" alt="{{ page.title }}"/>  {{ page.title }}</h1>
+    <h3>{{page.description}}</h3>
+  </div>
+</section>
+
+<section id="contact">
+  <div class="container">
+    <div class="col-md-6 col-md-offset-3">
+      {{ content }}
+    </div>
+  </div>
+</section>

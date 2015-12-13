@@ -1,0 +1,5 @@
+baseurl: "/my-site" # the subpath of your site, e.g. /blog
+
+collections:
+  services:
+    output: true
